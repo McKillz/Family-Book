@@ -1,0 +1,25 @@
+body{
+    text-align: center;
+    background-image: linear-gradient(#FCF6F5FF,#EDC2D8FF,#8ABAD3FF);
+}
+#family_img{
+    width:25%;
+    height: 60%;
+}
+button{
+    font-size:25px;
+    background-color:bisque;
+    border-radius:20%;
+    color:black;
+}
+h1{
+    font-size:  40px;
+    color: #8ab2f2;
+   text-decoration: underline;
+}
+h3{
+    font-size: 30px;
+    color:black;
+    font-weight: bold;
+    text-decoration: underline;
+}

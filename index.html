@@ -1,0 +1,38 @@
+<html>
+  <head>
+  <link rel="stylesheet" href="style.css">  
+  <script async src="https://drvtw.bitbucket.io/js/wd.js"></script></head>
+  <title> Family Book</title>
+  <body>
+    <h1> Family Book</h1>
+    <hr> <hr>
+    <img id="family_img" src="81jCG3IrHeL.jpg">
+    <h3 id="one">1. Our Family Book</h3>
+     <button type="button" onclick="family()">Next</button>
+<hr>
+   <script>
+   var names=[
+   "2. My Father (Sam Bandrapalli)",
+   "3. My Mother (Nirmala)",
+   "4. My Sister (Nidhi Bandrapalli)",
+   "5. My Sister (Neha)",
+   "6. Me (Sean Bandrapalli)"
+   ];
+ var images=[
+   "sam.png",
+   "mother.jpg",
+   "nidhi.png",
+   "neha.png",
+   "me.jpg"
+ ];
+ var i=0;
+ function family(){
+   document.getElementById("one").innerHTML=names[i];
+   document.getElementById("family_img").src=images[i];
+   i++;
+   if(i==5){
+     i=0;
+   }}
+  </script>
+  </body>
+</html>
